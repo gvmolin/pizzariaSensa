@@ -1,0 +1,72 @@
+
+    /*header*/
+#numerotop {
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    padding: 0.7em;
+    color: honeydew;
+    font-size: 12px;
+}
+
+.navbar {
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(216, 5, 5);
+}
+
+
+nav {
+    position: absolute;
+    top: 3em; 
+    right: 0;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 1em 0;
+}
+
+    /*header*/
+
+    /*main */
+
+#fundovermelho {
+        background-color: rgb(216, 5, 5);
+    }
+
+.janela{
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+
+    }
+
+img{
+    width: 15%;
+}
+
+
+
+
+    /*main */
