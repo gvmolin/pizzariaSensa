@@ -1,32 +1,97 @@
+    /* GENERAL */
 
-    /*header*/
+ul, li, h3 {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+    
+}
+
+main{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+#fundovermelho {
+    background-color: #cf1b1b;
+}
+
+.janela {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+    padding: 0.5em 0;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+
+header {
+    height: 190px;
+}
+
+
+
+   /* GENERAL */
+
+   /* header */
+
+.headerfixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
 #numerotop {
     width: 100%;
     background-color: rgb(31, 31, 31);
     text-align: center;
-    padding: 0.7em;
+    padding: 0.6em;
     color: honeydew;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'Syne', sans-serif;
+
 }
 
 .navbar {
     position: relative;
     margin: 0 auto;
-    width: 940px;
+    margin-top: 40px;
+    width: 980px;
     padding: 0;
+
 }
 
 
 header {
     width: 100%;
     display: inline-block;
-    background-color: rgb(216, 5, 5);
+    background-color: #900d0d;
+}
+
+.logo {
+    height: 110px;
+    vertical-align: center;
+    margin: 15px 0;
 }
 
 
 nav {
     position: absolute;
-    top: 3em; 
+    top: 3.7em; 
     right: 0;
     display: inline;
 }
@@ -40,33 +105,440 @@ nav a {
     color: seashell;
     text-decoration: none;
     font-size: 20px;
+    transition: 0.5s;
+    margin: 0 0.5em;
+    font-family: 'Syne', sans-serif;
 }
 
-h1 {
-    font-size: 35px;
-    padding: 1em 0;
+nav a:hover {
+    text-decoration: none;
+    color: seashell;
+    font-size: 130%;
 }
 
-    /*header*/
+.telefoninho{
+    height: 20px;
+}
+    /* header */
 
-    /*main */
+    /* footer */
 
-#fundovermelho {
-        background-color: rgb(216, 5, 5);
-    }
+footer {
+    background-color: rgb(31, 31, 31);
+}
 
-.janela{
-    position: relative;
+footer p {
+    text-align: center;
+    padding: 0.7em;
+    color: honeydew;
+    font-size: 12px;
+
+}
+
+.logofooter {
+    height: 70px;
+    margin: 2em 0;
+    display: inline-block;
+    
+}
+
+footer figure{
     margin: 0 auto;
-    width: 980px;
+    text-align: center;
+}
 
-    }
+.iconeredess {
+    height: 40px;
+    margin: 0 0.5em;
+    margin-left: 0;
+}
 
-img{
-    width: 15%;
+footer p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    display: inline;
+    color: honeydew;
+    border-style: inset;
+    border-width: 1px;
+    margin:0 10px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+    /* footer */
+
+    /* main home*/
+
+#fundo1 {
+    
+    background-image: url(img/background-curvas.jpg);
+    background-color: seashell;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+    }    
+
+.titulocentro {
+    text-align: center;
+}
+
+.imgex {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgex li {
+    display: inline-block;
+    padding: 2em 3.5em;
+}
+
+.janelaesquerda {
+    width: 40%;
+    display: inline-block;
+}
+
+.janeladireita {
+    width: 59%;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    vertical-align: top;
+    padding-top: 2em;
+}
+
+.restaurantefotos img{
+    width: 55%;
+    margin: 5px 0;
+    transition: 1s;
+}
+
+.restaurantefotos img:hover{
+    transform: scale(1.3);
+}
+
+.icon {
+    height: 120px;
+    margin: 0 2.5em;
+    text-align: center;
+}
+
+.destaque{
+    color: #ffa600;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.botaocarrossel{
+    background-color: green;
+    height: 2em;
+    width: 5em;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    color: honeydew;
+
+    transition: 0.5s;
+}
+
+.botaocarrossel:hover{
+    transform: scale(1.1);
 }
 
 
+.botaocarrossel a{
+    font-size: 24px;
+    color: honeydew;
+}
+        /* imagem carrossel 1 */
+#botao1{
+    position: absolute;
+    top: 220px;
+    right: 120px;
+}
+
+.figcap1{
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    font-size: 42px;
+    text-align: right;
+    
+}
+
+.figcap2{
+    position: absolute;
+    top: 68px;
+    right: 120px;
+    font-size: 56px;
+    
+}
+
+.figcap3{
+    position: absolute;
+    top: 126px;
+    right: 120px;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.figcap4{
+    position: absolute;
+    top: 140px;
+    right: 120px;
+    font-size: 56px;
+    
+}
+        /* imagem carrossel 2 */
+#botao2 {
+    position: absolute;
+    top: 290px;
+    right: 110px;
+}
+
+.figcap5{
+    position: absolute;
+    top: 100px;
+    right: 110px;
+    font-size: 42px;
+    text-align: right;
+    
+}
+
+.figcap6{
+    position: absolute;
+    top: 138px;
+    right: 110px;
+    font-size: 56px;
+    
+}
+
+.figcap7{
+    position: absolute;
+    top: 200px;
+    right: 110px;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.figcap8{
+    position: absolute;
+    top: 210px;
+    right: 110px;
+    font-size: 56px;
+    
+}
+        /* imagem carrossel 3 */
+
+#botao3 {
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+.figcap9{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    font-size: 42px;
+    text-align: right;
+    
+}
+
+.figcap10{
+    position: absolute;
+    top: 48px;
+    left: 110px;
+    font-size: 56px;
+    
+}
+
+.figcap11{
+    position: absolute;
+    top: 57px;
+    left: 110px;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.figcap12{
+    position: absolute;
+    top: 71px;
+    left: 110px;
+    font-size: 56px;
+    
+}
+        /* banner */
+
+.banner img{
+    width: 980px;
+    margin: 1.5em 0;
+}
+
+.figcap13 {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 56px;
+}
+
+.figcap14 {
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    font-size: 52px;
+}
+
+#botao4 {
+    position: absolute;
+    top: 190px;
+    right: 40px;
+}
+
+    /* main home*/
+
+    /* main cardapio */
+.produto {
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.info1 {
+    width: 80%;
+    height: 150px;
+    margin: 0;
+    display: inline-block;
+    padding: 12px 1.5em ;
+
+}
+
+.info2 {
+    display: inline-block;
+    width: 17%;
+    height: 150px;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px 0;
+}
+
+.cartao{
+    border: black solid 2px;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    transition: 0.5s;
+
+    background-color: white;
+}
+
+    
+.cartao:hover {
+    transform: scale(1.03);
+    border-color: green;
+}
+
+.botaocardapio{
+    background-color: green;
+    height: 2em;
+    width: 5em;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    color: honeydew;
+}
+
+.valor {
+    margin-right: 9px;
+}
+
+.definirtamanho {
+    height: 580px;
+}
+    /* main cardapio */
 
 
-    /*main */
+    /*cardapio carrinho*/
+
+
+.produtocarrinho{
+    border-top: 2px  rgb(31, 31, 31);
+    border-style: solid;
+    padding-bottom: 3px;
+
+}
+
+.quantidadecarrinho {
+    width: 50px;
+    border-style: none;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.removercarrinho {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border-style: none;
+    color: white;
+    background-color: rgb(185, 0, 0);
+
+    margin: 0 25px;
+}
+
+.saborcarrinho, .valorcarrinho {
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.saborcarrinho {
+    margin-left: 120px;
+}
+
+.valorcarrinho {
+    margin-left: 50px;
+}
+
+#labelremover {
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+}
+
+#labelitem {
+    position: absolute;
+    top: 1.5em;
+    left: 33%;
+}
+
+#labelquantidade {
+    position: absolute;
+    top: 1.5em;
+    right: 31.5%;
+}
+
+#labelvalor{
+    position: absolute;
+    top: 1.5em;
+    right: 6%;
+}
+
+.fixo {
+    height: 120px;
+}
+
+.total {
+    width: 100%;
+    text-align: right;
+    
+}
+
+.total h2, h3 {
+    display: inline-block;
+}
+  /* cardapio carrinho*/
