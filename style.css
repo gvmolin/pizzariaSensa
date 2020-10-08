@@ -459,6 +459,7 @@ hr {
 .definirtamanho {
     height: 580px;
 }
+
     /* main cardapio */
 
 
@@ -466,7 +467,7 @@ hr {
 
 
 .produtocarrinho{
-    border-top: 2px  rgb(31, 31, 31);
+    border-bottom: 2px  rgb(31, 31, 31);
     border-style: solid;
     padding-bottom: 3px;
 
