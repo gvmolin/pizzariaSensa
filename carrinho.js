@@ -107,3 +107,5 @@ function addItemNaLista(titulo, preço) {
 
 
 attCarrinho()
+
+uuuuuuuuuuuuuuuuuuuu
