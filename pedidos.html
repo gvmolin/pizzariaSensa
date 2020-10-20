@@ -33,7 +33,49 @@
 <main>  
     <section id="fundovermelho">
         <div class="janela">
-            
+            <form class="formulariopedidos">
+                <h2>Informações para conclusão do pedido:</h2>
+
+                <div class="campoformulario">
+                <label for="nome">Nome:</label>
+                <input type="text" name="name" placeholder="ex. Alfredo Batista">
+                </div>
+
+                <div class="campoformulario">
+                <label for="telefonecliente">Numero telefone cel/res:</label>
+                <input type="text" name="telefonecliente" placeholder="(11)xxxxx-xxxx">
+                </div>
+
+                <div class="campoformulario">
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx">
+                </div>
+
+                <div class="campoformulario">
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" placeholder="xxxxx-xxx">
+                </div>
+
+                <div class="campoformulario" id="porinline">
+                <label for="Endereço">Endereço</label>
+                <input type="text" name="endereço" placeholder="rua - numero, bairro">
+                </div>
+
+                <div class="campoformulario" id="porinline2">
+                <label for="Cidade">Cidade:</label>
+                <select name="cidade">
+                    <option value="none">- - -</option>
+                    <option value="barueri">Barueri</option>
+                    <option value="carapicuíba">Carapicuíba</option>
+                    <option value="osasco">Osasco</option>
+                    <option value="jandira">Jandira</option>
+
+                </select>
+                </div>
+
+                
+                <button id="concluirpedido">Concluir Pedido</button>
+            </form>
 
 
         </div>

@@ -541,3 +541,51 @@ hr {
     display: inline-block;
 }
   /* cardapio carrinho*/
+
+.formulariopedidos{
+    padding: 30px auto;
+    padding-bottom: 15px;
+
+}
+
+.campoformulario {
+    display: block;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 22px;
+
+    
+    
+}
+
+.campoformulario input, select{
+    border: none;
+    border-radius: 8px;
+    
+    margin-top: 5px;
+    margin-bottom: 8px;
+    height: 40px;
+    background-color: rgb(255, 233, 225);
+
+}
+
+#porinline {
+    display: inline-block;
+}
+
+#porinline2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#concluirpedido {
+    background-color: green;
+    height: 40px;
+    width: 300px;
+    border-radius: 12px;
+    border: none;
+    font-size: 24px;
+    color: honeydew;
+
+    display: block;
+    margin-top: 10px;
+}
