@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizzaria Sensação</title>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -22,16 +23,18 @@
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="cardapio.html">Cardápio</a></li>
-                    <li><a href="pedidos.html">&bull; &nbsp;Pedidos</a></li>
+                    <li><a href="pedidos.html" class="sublinhado"><h4 class="bullet"> &bull; &nbsp; </h4>Pedidos</a></li>
                 </ul>
             </nav>
         </div><!--navbar-->
-    
-        
     </header>
 
 <main>  
-    <section id="fundovermelho">
+    <section></section>
+    
+
+
+    <section class="fundovermelho">
         <div class="janela">
             <form class="formulariopedidos">
                 <h2>Informações para conclusão do pedido:</h2>
@@ -42,36 +45,46 @@
                 </div>
 
                 <div class="campoformulario">
-                <label for="telefonecliente">Numero telefone cel/res:</label>
-                <input type="text" name="telefonecliente" placeholder="(11)xxxxx-xxxx">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx">
                 </div>
 
                 <div class="campoformulario">
-                <label for="cpf">CPF:</label>
-                <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx">
+                    <label for="telefonecliente">Numero telefone cel/res:</label>
+                    <input type="text" name="telefonecliente" placeholder="(11)xxxxx-xxxx">
                 </div>
 
                 <div class="campoformulario">
-                <label for="cep">CEP:</label>
-                <input type="text" name="cep" placeholder="xxxxx-xxx">
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="cep" placeholder="xxxxx-xxx">
                 </div>
 
                 <div class="campoformulario" id="porinline">
-                <label for="Endereço">Endereço</label>
-                <input type="text" name="endereço" placeholder="rua - numero, bairro">
+                    <label for="Endereço">Endereço</label>
+                    <input type="text" name="endereço" placeholder="rua - numero, bairro">
                 </div>
 
                 <div class="campoformulario" id="porinline2">
-                <label for="Cidade">Cidade:</label>
-                <select name="cidade">
-                    <option value="none">- - -</option>
-                    <option value="barueri">Barueri</option>
-                    <option value="carapicuíba">Carapicuíba</option>
-                    <option value="osasco">Osasco</option>
-                    <option value="jandira">Jandira</option>
-
-                </select>
+                    <label for="Cidade">Cidade:</label>
+                    <select name="cidade">
+                        <option value="none">- - -</option>
+                        <option value="barueri">Barueri</option>
+                        <option value="carapicuíba">Carapicuíba</option>
+                        <option value="osasco">Osasco</option>
+                        <option value="jandira">Jandira</option>
+                    </select>
                 </div>
+
+                <div class="campoformulario">
+                    <label for="formadepgto">Forma de pagamento:</label>
+                    <select name="formadepgto">
+                        <option value="none">- - -</option>
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="cartao">Cartão</option>
+                        <option value="vale">Vale</option>
+                    </select>
+                </div>
+                
 
                 
                 <button id="concluirpedido">Concluir Pedido</button>

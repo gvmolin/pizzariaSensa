@@ -19,8 +19,12 @@ figure{
     padding: 0;
 }
 
-#fundovermelho {
+.fundovermelho {
     background-color: #cf1b1b;
+}
+
+.fundopreto {
+    background-color: rgb(31, 31, 31);
 }
 
 .janela {
@@ -38,11 +42,9 @@ h2 {
     
 }
 
-header {
-    height: 190px;
+.cttsmobile {
+    display: none;
 }
-
-
 
    /* GENERAL */
 
@@ -118,6 +120,10 @@ nav a:hover {
 
 .telefoninho{
     height: 20px;
+}
+
+.bullet{
+    display: inline;
 }
     /* header */
 
@@ -548,6 +554,10 @@ hr {
 
 }
 
+.formulariopedidos button{
+    display: block;
+}
+
 .campoformulario {
     display: block;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -569,11 +579,11 @@ hr {
 }
 
 #porinline {
-    display: inline-block;
+    display: inline;
 }
 
 #porinline2 {
-    display: inline-block;
+    display: inline;
     margin-left: 10px;
 }
 
@@ -588,4 +598,147 @@ hr {
 
     display: block;
     margin-top: 10px;
+}
+
+
+/* media querie p mobile */
+
+@media (max-width: 980px){
+
+    .janela {
+        width: 70%;
+    }
+
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    nav li{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+
+    nav{
+        position: unset;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav a{
+        font-size: 2.5em;
+    }
+
+    nav li{
+        margin: 25% 0;
+    }
+
+    .navbar{
+        width: 100%;
+        
+    }
+
+    .navbar figure {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logo{
+        width: 55%;
+        height: 100%;
+        display: block;
+
+        position: relative;
+        text-align: center;
+        margin: 10% auto;
+        margin-top: 3%;
+    }
+
+    .carousel-inner{
+        display: none;
+    }
+   
+    .banner {
+        display: none;
+    }
+
+    .mapagoogle{
+        width: 100%;
+    }
+
+    .headerfixo{
+        display: none;
+    }
+
+    .cttsmobile{
+        display: block;
+
+        background-color: rgb(31, 31, 31);
+        padding: 2em 0;
+        
+    }
+
+    .cttsmobile h2{
+        color: white;
+        text-align: center;
+        display: inline-block;
+
+        font-size: 4vw;
+        
+    }
+
+    .cttsmobile img{
+        width: 15%;
+        display: inline-block;
+        margin: 3px;
+    }
+
+    nav a:hover{
+        font-size: 2.5em;
+    }
+
+    .bullet{
+        display: none;
+
+        font-size: 5px;
+        font-family: 'Syne', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .centralizar{
+        display: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sublinhado{
+        text-decoration: underline;
+
+    }
+
+    .imgex li {
+        display: block;
+        padding: 1em 0;
+    }
+    
+    .janelaesquerda{
+        width: 100%;
+    }
+
+    .janelaesquerda h3,h4{
+        font-size: 5.5vw;
+    }
+
+    .janeladireita{
+        width: 100%;
+        text-align: center;
+    }
+
+    .restaurantefotos img{
+        width: 100%;
+    }
 }
