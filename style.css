@@ -605,6 +605,7 @@ hr {
 
 @media (max-width: 980px){
 
+    /* header e home */
     .janela {
         width: 70%;
     }
@@ -684,10 +685,10 @@ hr {
     .cttsmobile h2{
         color: white;
         text-align: center;
+        vertical-align: middle;
         display: inline-block;
 
         font-size: 4vw;
-        
     }
 
     .cttsmobile img{
@@ -741,4 +742,45 @@ hr {
     .restaurantefotos img{
         width: 100%;
     }
+    /* header e home */
+
+    /* cardapio */
+
+    .info1 {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        padding: 12px 1.5em ;
+    }
+
+    .info1 h2 {
+        font-size: 8vw;
+    }
+    
+    .info2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .botaocardapio{
+        height: 10vw;
+        width: 25vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        }
+
+    .produto {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .pedidos h2{
+        font-size: 4vw;
+    }
+
+    /* cardapio */
 }
+
