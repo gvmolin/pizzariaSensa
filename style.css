@@ -46,6 +46,16 @@ h2 {
     display: none;
 }
 
+.mobile {
+    display: none;
+}
+
+.mobile2 {
+    width: initial;
+    text-align: initial;
+    display: inline;
+}
+
    /* GENERAL */
 
    /* header */
@@ -778,9 +788,89 @@ hr {
     }
 
     .pedidos h2{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     /* cardapio */
-}
 
+    /*carrinho */
+
+    #labelitem {
+        display: none;
+    }
+    
+    #labelquantidade {
+        display: none;
+    }
+    
+    #labelvalor{
+        display: none;
+    }
+
+    .fixo {
+        height: 12vw;
+    }
+
+    .produtocarrinho{
+        border-bottom: 2px  rgb(31, 31, 31);
+        border-style: solid;
+        padding-bottom: 3px;
+
+        margin: 2vw 0;
+    
+    }
+    
+    .quantidadecarrinho {
+        width: 15%;
+        border-style: none;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 2vw;
+    }
+    
+    .removercarrinho {
+        width: 100%;
+        height: 5vw;
+        border-radius: 5vw;
+        text-align: center;
+        vertical-align: center;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    .saborcarrinho, .valorcarrinho {
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .produtocarrinho h3 {
+        font-size: 8vw;
+
+    }
+    
+    .saborcarrinho {
+        margin: 0;
+        padding: 0;
+        font-size: 5vw;
+    }
+    
+    .valorcarrinho {
+        margin-left: 0;
+        display: inline;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+    .mobile2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-bottom: 1vw;
+    }
+
+}

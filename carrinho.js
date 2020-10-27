@@ -96,8 +96,8 @@ function addItemNaLista(titulo, preço) {
     var conteudoProdutoCarrinho = `
         <button class="removercarrinho">-</button>
         <h3 class="saborcarrinho">${titulo}</h3>
-        <input type="number" value="1" class="quantidadecarrinho">
-        <h3 class="valorcarrinho">${preço}</h3>
+        <div class="mobile2"> <input type="number" value="1" class="quantidadecarrinho"><h3 class="mobile">x</h3>
+        <h3 class="valorcarrinho">${preço}</h3></div>
     `
     addCarrinho.innerHTML = conteudoProdutoCarrinho
     produtosCarrinho.append(addCarrinho)
